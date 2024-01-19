@@ -3,8 +3,10 @@
 Module documentation: 0-basic_async_syntax
 """
 
+
 import asyncio
 import random
+
 
 async def wait_random(max_delay: int = 10) -> float:
     """
